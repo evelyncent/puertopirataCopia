@@ -1,5 +1,8 @@
+@charset "UTF-8";
 .mainNosotros {
-  background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white); }
+  background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
+  margin-top: 100px;
+  padding-bottom: 150px; }
   .mainNosotros .blockquote {
     font-family: 'Cormorant', serif;
     display: flex;
@@ -10,3 +13,93 @@
     text-align: center;
     font-family: 'Cormorant', serif;
     font-size: 35px; }
+
+.timon {
+  margin-top: 250px;
+  width: 200px;
+  height: 200px; }
+
+footer {
+  background-image: linear-gradient(#13F8F9, white);
+  background-size: cover;
+  position: relative;
+  top: 100px; }
+  footer .index-nav1__logo--tamañoLogo {
+    width: 110px;
+    height: auto; }
+
+.face:hover {
+  transform: scale(1.2);
+  color: white; }
+
+.wsp:hover {
+  transform: scale(1.2);
+  color: white; }
+
+.insta:hover {
+  transform: scale(1.2);
+  color: white; }
+
+.d-block {
+  margin-top: 50px;
+  height: 408px; }
+
+.index-nav1__tituloLogo--formatoTitulo {
+  color: black;
+  text-shadow: 2px 2px 2px grey;
+  z-index: 1;
+  font-size: 30px;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-style: normal; }
+
+.redes {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  top: 67px;
+  right: 70px;
+  justify-content: flex-end; }
+
+.div-redes1__a {
+  margin-left: 25px; }
+
+.ubicacionTitulo1 {
+  display: inline;
+  position: relative;
+  bottom: -6px;
+  left: 8px; }
+
+.navbar {
+  height: 101px;
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  right: 0px;
+  background-image: linear-gradient(#13F8F9, white); }
+
+.navbar-brand {
+  text-shadow: 2px 2px 2px grey;
+  margin-right: 0px;
+  font-size: 30px;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-style: normal; }
+
+.nav-link {
+  margin-left: 70px; }
+  .nav-link:hover {
+    color: white; }
+
+.imagen {
+  position: relative;
+  right: 10px;
+  width: 90px; }
+
+.navbar-collapse {
+  margin-left: 150px;
+  text-shadow: 1px 1px 1px grey;
+  font-size: 17px;
+  font-family: 'Cormorant', serif;
+  font-weight: bold;
+  font-style: normal; }

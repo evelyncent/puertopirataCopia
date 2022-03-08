@@ -1,0 +1,45 @@
+.navbar{
+  height: 101px;
+  position: fixed;
+  z-index: 1;
+ width: 100%;
+ right:0px;
+ background-image:$colorNav;
+}
+.navbar-brand{
+  text-shadow:2px 2px 2px grey;
+  margin-right: 0px;
+  font:{
+    size:30px;
+    family: 'Cormorant', serif;
+    weight:bold;
+    style: normal;
+  }
+}
+  
+.nav-link{
+   margin-left:70px;
+&:hover{
+  color:white;
+}
+}
+  .imagen{
+  position: relative;
+ right:10px;
+ width: 90px;
+ 
+}
+
+.navbar-collapse{
+  margin-left:150px;
+  text-shadow: 1px 1px 1px grey;
+  font:{
+    size:17px;
+    family: 'Cormorant', serif;
+    weight:bold ;
+    style: normal;
+  }
+}
+ 
+  
+ 
