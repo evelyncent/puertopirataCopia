@@ -3,20 +3,20 @@
   background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
   margin-top: 100px;
   padding-bottom: 150px;
-  height: 800px; }
+  height: 1000px; }
   .mainNosotros .blockquote {
     font-family: 'Cormorant', serif;
     display: flex;
     justify-content: center;
     position: relative;
-    top: 200px;
+    top: 80px;
     line-height: 2;
     text-align: center;
     font-family: 'Cormorant', serif;
     font-size: 35px; }
 
 .timon {
-  margin-top: 250px;
+  margin-top: 50px;
   width: 200px;
   height: 200px; }
 
