@@ -1,3 +1,17 @@
-$colormainnosotros:linear-gradient(45deg,white,#F9E79F, #FCFAE2,white);
-$colorfooter:linear-gradient(#13F8F9,white);
-$colorNav:linear-gradient(#13F8F9,white);
+$color:(
+	main:linear-gradient(45deg,white,#F9E79F, #FCFAE2,white),
+	footer:linear-gradient(#13F8F9,white),
+	nav:linear-gradient(#13F8F9,white),
+	);
+$fontColor:(
+	nav:black,
+	mainIndex:white,
+	mainNosotros:black,
+	mainEventosTitulo:black,
+	mainEventosPrincipal:#FCFAE2,
+	mainServiciosTitulo:black,
+	mainServiciosPrincipal:#FCFAE2,
+	mainContactos:black,
+	footer:black,
+	);
+

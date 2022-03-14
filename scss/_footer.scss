@@ -1,5 +1,5 @@
 footer{
-  background-image:$colorfooter; 
+  background-image:map-get($color,footer); 
   background-size: cover;
   position: relative;
 
