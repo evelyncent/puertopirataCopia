@@ -12,10 +12,11 @@
     family: 'Nunito', sans-serif;
     weight:bold;
     style: normal;
-    text-shadow: 2px 2px 2px grey;
+    
     
   
   }
+  text-shadow: 1.5px 1.5px 1.5px grey;
 }
 .navbar-nav .nav-link {
 
@@ -25,16 +26,13 @@
     family: 'Nunito', sans-serif;
     weight:bold;
     style: normal;
-    text-shadow: 1px 1px 1px grey;
+    
 
   }
+  text-shadow: 1px 1px 1px grey;
   margin-left:100px;
 }
-.navbar-nav .nav-link:hover{
-  color:white;
-  list-style-type: none;
-  text-decoration: none;
-}
+
 .nav-color{
 background-image:map-get($color,nav);
 }
