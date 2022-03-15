@@ -1,0 +1,47 @@
+.mainIndex{
+	background:map-get($color,main);
+	padding:20px;
+	height: 600px;
+    width: auto;
+
+  }
+
+  .imagenCarrousel {
+    margin-top: 100px;
+    height: 420px;
+
+}
+
+.carousel{
+	text-shadow: 2px 2px 2px black;
+  color: white;
+ font-family: 'Nunito', sans-serif;
+ text-align: center;
+}
+
+
+.carousel{
+text-shadow: 2px 2px 2px black;
+  color: white;
+ font-family: 'Nunito', sans-serif;
+ text-align: center;
+}
+.titulo1Carrousel  {
+	@extend.carousel;
+   font-size: 28px;
+}
+
+
+.tituloCarrousel{
+	@extend.carousel;
+	font-size: 20px;
+}
+
+
+
+
+
+
+.carousel-inner{
+  z-index:0 ;
+}

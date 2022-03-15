@@ -1,79 +1,71 @@
+
 footer{
-  background-image:map-get($color,footer); 
+  background-image:map-get($color,footer);
   background-size: cover;
+  }
+
+  footer  p.index-nav1__tituloLogo--formatoTitulo{
+   color: map-get($fontColor,footer);
+   font:{
+    size:30px;
+    family: 'Nunito', sans-serif;
+    weight:bold;
+    style: normal;
+  }
+  text-shadow:2px 2px 2px grey;
+  z-index: 1;
+}
+
+.index-nav1__logo--tamañoLogo{
+  width:110px ;
+  height:auto;
+  padding-right: 20px;
+}
+
+.div-redes1__a{
+ margin-left:25px;
+}
+
+
+// .redesIndex{
+
+//   display: flex;
+//   flex-direction: row;
+//   position: relative;
+//   top: 50px;
+//   right:70px;
+//   justify-content: flex-end;
+//   margin-bottom: 15px;
+//   padding-top: 10px;
+// }
+.redes{
+  display: flex;
+  flex-direction: row;
   position: relative;
-
-  .index-nav1__logo--tamañoLogo{
-    width:110px ;
-    height:auto;
-
-      
-        }
-      }
-    
-   
+  top: 10px;
+  right:70px;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  padding-top: 10px;
+}
 
 
- 
 
+.ubicacionTitulo1 {
+    display: inline;
+    position: relative;
+    bottom: -6px;
+    left: -17px;
+}
 
- .face{
-        &:hover{
+.div-redes1__a--formato{
+  &:hover{
         transform: scale(1.2);
-        color: white;
+        color: #1C9ABA;
       }
-    }
+ }
 
-      .wsp{
-          &:hover{
-          transform: scale(1.2);
-          color: white;
-        }
-      }
-
-          .insta{
-            &:hover{
-            transform: scale(1.2);
-            color: white;
-          }
-        }
-
-
-            .d-block {
-              margin-top: 50px;
-              height: 408px;
-            }
-          
           
           
         
 
- .index-nav1__tituloLogo--formatoTitulo{
-    color: black;
-    text-shadow:2px 2px 2px grey;
-    z-index: 1;
-    font:{
-      size:30px;
-      family: 'Cormorant', serif;
-      weight:bold ;
-      style: normal;
-    }
-  }
-
-.redes{
-      display: flex;
-  flex-direction: row;
-  position: relative;
-  top: 67px;
-  right:70px;
-  justify-content: flex-end;
-}
-.div-redes1__a{
-    margin-left:25px;
-  }
-  .ubicacionTitulo1 {
-    display: inline;
-    position: relative;
-    bottom: -6px;
-    left:8px;
-}
