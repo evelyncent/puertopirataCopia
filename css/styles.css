@@ -176,7 +176,10 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
     opacity: 0.1; } }
 
 .itemsEventos {
-  text-decoration: none; }
+  text-decoration: none;
+  padding: 18px;
+  font-family: 'Nunito', sans-serif; }
 
 .listaEventos {
-  list-style-type: none; }
+  list-style-type: none;
+  margin-top: 30px; }
