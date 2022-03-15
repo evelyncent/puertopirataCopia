@@ -12,12 +12,11 @@
   padding:15px;
 }
 
-.card{
-  position: relative;
-  top: 350px;
+.cards{
+ padding:30px
 }
 .card1 .card2 .card3 .card4 .card5{
- @extend.card;
+ @extend.cards;
 }
 
 
@@ -26,13 +25,20 @@
   font-size: 25px;
   color: #FCFAE2;
 }
-
+.tarjetas{
+  margin-top: 180px;
+}
+.tarjetas2{
+  background:none;
+  border:none;
+}
 
 
 .tituloEventos{
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
  margin-top: 200px;
+ text-align: center;
   
 }
 
@@ -47,21 +53,12 @@
 }
  
 
-.box1{
-background-color: #D1F2EB;
-background-size: cover;
-width: 500px;
-height: 300px;
-position: relative;
-bottom:700px;
-left:900px;
 
-}
 
 .footerEventos{
   position: relative;
 
-  top:320px;
+  top:0px;
 }
 .listaEventos{
   font-size: 25px;
@@ -75,7 +72,8 @@ left:900px;
 
   }
   .Eventos__divDescripcionTitulo--pTitulo{
-    margin-top: 100px;
+    font-size: 25px;
+    margin-top: 120px;
   animation-name: movimiento;
   animation-duration: 2s;
 }
@@ -95,5 +93,6 @@ left:900px;
 }
 .listaEventos{
   list-style-type: none;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-right: 25px;
 }
