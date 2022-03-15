@@ -1,0 +1,94 @@
+
+@mixin sizes($width,$height){
+  width: $width;
+  height: $height;
+}
+
+.Eventos{
+  @include sizes(auto,auto);
+  background:map-get($color,main);
+  background-size: cover;
+  position: relative;
+  padding:15px;
+
+}
+.card{
+  position: relative;
+  top: 350px;
+}
+.card1 .card2 .card3 .card4 .card5{
+ @extend.card;
+}
+
+
+.card-text{
+  font-family: 'Nunito', sans-serif;
+  font-size: 25px;
+  color: #FCFAE2;
+}
+
+
+.Eventos__divDescripcionTitulo--pDescripcion{
+    
+    line-height: 1.5;
+text-align: center;
+font-family: 'Nunito', sans-serif;
+font-size: 35px;
+display: flex;
+justify-content: center;
+position: relative;
+top: 128px;  
+}
+.Eventos__divDescripcionTitulo--pTitulo{
+  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  position:relative;
+  top:250px;
+  text-align: center;
+}
+
+.palmeras{
+  display: flex;
+  position: relative;
+  top: 230px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+ 
+
+.box1{
+background-color: #D1F2EB;
+background-size: cover;
+width: 500px;
+height: 300px;
+position: relative;
+bottom:700px;
+left:900px;
+
+}
+
+.footerEventos{
+  position: relative;
+
+  top:320px;
+}
+.Eventos__divDescripcionTitulo--pDescripcion{
+  animation-name: movimiento;
+  animation-duration: 2s;
+}
+@keyframes movimiento{
+  50%{
+    
+    opacity: 0.1;}
+
+  }
+  .Eventos__divDescripcionTitulo--pTitulo{
+  animation-name: movimiento;
+  animation-duration: 2s;
+}
+@keyframes movimiento{
+  50%{
+    
+    opacity: 0.1;}
+
+  }
