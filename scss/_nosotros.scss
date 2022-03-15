@@ -1,25 +1,33 @@
 
-
+@mixin sizes($width,$height){
+	width: $width;
+	height: $height;
+}
 .mainNosotros{
 	background:map-get($color,main);
+
+
 	margin-top: 100px;
 	padding-bottom: 150px;
-	height:1000px;
+	height:750px;
 	.blockquote{
-		font-family: 'Cormorant', serif;
-		display: flex;
-		justify-content: center;
-		position: relative;
-		top: 80px;
-		line-height: 2;
-		text-align: center;
-		font-family:'Cormorant', serif ;
-		font-size: 35px;
+		font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 80px;
+    line-height:1.3;
+    text-align: center;
+   
+    font-size: 30px;
 
 	}
 }
+
+
+
 .timon {
-	margin-top:50px;
-			width: 200px;
-			height: 200px;
+	@include sizes(200px,200px);
+	margin-top:80px;
+			
 		}
