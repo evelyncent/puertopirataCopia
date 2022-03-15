@@ -33,7 +33,7 @@
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
  margin-top: 200px;
-  text-align: center;
+  
 }
 
 .palmeras{
@@ -43,6 +43,7 @@
   top: 200px;
   margin-left: 20px;
   margin-right: 20px;
+  
 }
  
 
@@ -63,6 +64,7 @@ left:900px;
   top:320px;
 }
 .listaEventos{
+  font-size: 25px;
   animation-name: movimiento;
   animation-duration: 2s;
 }
@@ -83,6 +85,12 @@ left:900px;
     opacity: 0.1;}
 
   }
-  .listaEventos{
-    margin-top: 50px;
-  }
+  
+
+.itemsEventos{
+ 
+  text-decoration: none;
+}
+.listaEventos{
+  list-style-type: none;
+}

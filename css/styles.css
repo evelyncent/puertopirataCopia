@@ -133,8 +133,7 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
 .tituloEventos {
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
-  margin-top: 200px;
-  text-align: center; }
+  margin-top: 200px; }
 
 .palmeras {
   width: 50px;
@@ -159,6 +158,7 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   top: 320px; }
 
 .listaEventos {
+  font-size: 25px;
   animation-name: movimiento;
   animation-duration: 2s; }
 
@@ -175,5 +175,8 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   50% {
     opacity: 0.1; } }
 
+.itemsEventos {
+  text-decoration: none; }
+
 .listaEventos {
-  margin-top: 50px; }
+  list-style-type: none; }
