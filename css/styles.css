@@ -121,53 +121,42 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   position: relative;
   padding: 15px; }
 
-.card, .card1 .card2 .card3 .card4 .card5 {
-  position: relative;
-  top: 350px; }
+.cards, .card1 .card2 .card3 .card4 .card5 {
+  padding: 30px; }
 
 .card-text {
   font-family: 'Nunito', sans-serif;
   font-size: 25px;
   color: #FCFAE2; }
 
-.Eventos__divDescripcionTitulo--pDescripcion {
-  line-height: 1.5;
-  text-align: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 35px;
-  display: flex;
-  justify-content: center;
-  position: relative;
-  top: 128px; }
+.tarjetas {
+  margin-top: 180px; }
 
-.Eventos__divDescripcionTitulo--pTitulo {
+.tarjetas2 {
+  background: none;
+  border: none; }
+
+.tituloEventos {
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
-  position: relative;
-  top: 250px;
+  margin-top: 200px;
   text-align: center; }
 
 .palmeras {
+  width: 50px;
+  height: 50px;
   display: flex;
   position: relative;
-  top: 230px;
+  top: 200px;
   margin-left: 20px;
   margin-right: 20px; }
 
-.box1 {
-  background-color: #D1F2EB;
-  background-size: cover;
-  width: 500px;
-  height: 300px;
-  position: relative;
-  bottom: 700px;
-  left: 900px; }
-
 .footerEventos {
   position: relative;
-  top: 320px; }
+  top: 0px; }
 
-.Eventos__divDescripcionTitulo--pDescripcion {
+.listaEventos {
+  font-size: 25px;
   animation-name: movimiento;
   animation-duration: 2s; }
 
@@ -176,9 +165,21 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
     opacity: 0.1; } }
 
 .Eventos__divDescripcionTitulo--pTitulo {
+  font-size: 25px;
+  margin-top: 120px;
   animation-name: movimiento;
   animation-duration: 2s; }
 
 @keyframes movimiento {
   50% {
     opacity: 0.1; } }
+
+.itemsEventos {
+  text-decoration: none;
+  padding: 18px;
+  font-family: 'Nunito', sans-serif; }
+
+.listaEventos {
+  list-style-type: none;
+  margin-top: 60px;
+  margin-right: 25px; }
