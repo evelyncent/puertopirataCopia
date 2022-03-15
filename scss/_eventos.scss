@@ -10,8 +10,8 @@
   background-size: cover;
   position: relative;
   padding:15px;
-
 }
+
 .card{
   position: relative;
   top: 350px;
@@ -28,29 +28,19 @@
 }
 
 
-.Eventos__divDescripcionTitulo--pDescripcion{
-    
-    line-height: 1.5;
-text-align: center;
-font-family: 'Nunito', sans-serif;
-font-size: 35px;
-display: flex;
-justify-content: center;
-position: relative;
-top: 128px;  
-}
-.Eventos__divDescripcionTitulo--pTitulo{
+
+.tituloEventos{
   font-family: 'Nunito', sans-serif;
   font-size: 40px;
-  position:relative;
-  top:250px;
+ margin-top: 200px;
   text-align: center;
 }
 
 .palmeras{
+  @include sizes(50px,50px);
   display: flex;
   position: relative;
-  top: 230px;
+  top: 200px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -72,7 +62,7 @@ left:900px;
 
   top:320px;
 }
-.Eventos__divDescripcionTitulo--pDescripcion{
+.listaEventos{
   animation-name: movimiento;
   animation-duration: 2s;
 }
@@ -83,6 +73,7 @@ left:900px;
 
   }
   .Eventos__divDescripcionTitulo--pTitulo{
+    margin-top: 100px;
   animation-name: movimiento;
   animation-duration: 2s;
 }
@@ -91,4 +82,7 @@ left:900px;
     
     opacity: 0.1;}
 
+  }
+  .listaEventos{
+    margin-top: 50px;
   }
