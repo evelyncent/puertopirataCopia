@@ -280,7 +280,9 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   height: 450px; }
 
 .ubicacion {
-  text-align: center; }
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif; }
 
 .mainContacto {
   background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
