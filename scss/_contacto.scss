@@ -1,0 +1,44 @@
+
+@mixin sizes($width,$height){
+  width: $width;
+  height: $height;
+}
+
+.formatoContacto{
+  text-shadow:1px 1px 1px black;
+font-family: 'Nunito', sans-serif;
+}
+
+.tituloContacto{
+  @extend.formatoContacto;
+  margin-top: 180px;
+  margin-bottom: 80px;
+  font-size: 45px;
+}
+
+.tituloFormulario{
+  @extend.formatoContacto;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.mapa{
+  border:{
+    color:black;
+    width:15px;
+    style:solid;
+  }
+  height: 450px;
+ 
+  }
+  .ubicacion{
+    text-align: center;
+  }
+
+  .mainContacto{
+    background:map-get($color,main);
+    @include sizes(auto,auto);
+  }
+
+
+

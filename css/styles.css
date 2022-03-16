@@ -259,3 +259,30 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
 
 .galeria .col-lg-6 {
   padding: 20px; }
+
+.formatoContacto, .tituloContacto, .tituloFormulario {
+  text-shadow: 1px 1px 1px black;
+  font-family: 'Nunito', sans-serif; }
+
+.tituloContacto {
+  margin-top: 180px;
+  margin-bottom: 80px;
+  font-size: 45px; }
+
+.tituloFormulario {
+  margin-bottom: 30px;
+  text-align: center; }
+
+.mapa {
+  border-color: black;
+  border-width: 15px;
+  border-style: solid;
+  height: 450px; }
+
+.ubicacion {
+  text-align: center; }
+
+.mainContacto {
+  background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
+  width: auto;
+  height: auto; }
