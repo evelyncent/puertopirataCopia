@@ -183,3 +183,55 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   list-style-type: none;
   margin-top: 60px;
   margin-right: 25px; }
+
+.Servicios {
+  background: linear-gradient(90deg, #F9E79F, #FCFAE2, white);
+  position: relative;
+  width: 100%;
+  height: 100%; }
+
+.Servicios__div--titulo {
+  color: #FCFAE2;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  line-height: 1.2;
+  font-family: 'Nunito', sans-serif;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white; }
+
+.Servicios__div__ul {
+  color: #FCFAE2;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 110px;
+  line-height: 1.2;
+  font-family: 'Nunito', sans-serif;
+  font-size: 20px; }
+
+.div__video {
+  display: flex;
+  position: relative;
+  height: 500px;
+  top: 100px; }
+
+.Servicios__div {
+  position: relative;
+  top: 50px;
+  right: 40px; }
+
+.texto {
+  padding-top: 120px;
+  font-size: 20px;
+  font-family: 'Nunito', sans-serif;
+  text-align: center; }
+
+.Servicios {
+  background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
+  background-size: cover;
+  position: relative;
+  width: auto;
+  height: 1300px; }
