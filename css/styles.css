@@ -184,6 +184,12 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
   margin-top: 60px;
   margin-right: 25px; }
 
+hr {
+  margin-top: 100px;
+  width: 50%;
+  align: center;
+  size: 10; }
+
 .formato, .Servicios__div--titulo, .Servicios__div__ul {
   font-family: 'Nunito', sans-serif;
   color: #FCFAE2;
