@@ -138,9 +138,10 @@ footer p.index-nav1__tituloLogo--formatoTitulo {
 
 .tituloEventos {
   font-family: 'Nunito', sans-serif;
-  font-size: 40px;
+  font-size: 45px;
   margin-top: 200px;
-  text-align: center; }
+  text-align: center;
+  text-shadow: 1px 1px 1px black; }
 
 .palmeras {
   width: 50px;
@@ -189,6 +190,9 @@ hr {
   width: 50%;
   align: center;
   size: 10; }
+
+.imagenTituloTimon {
+  width: 40px; }
 
 .formato, .Servicios__div--titulo, .Servicios__div__ul {
   font-family: 'Nunito', sans-serif;
