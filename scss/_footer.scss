@@ -4,27 +4,29 @@ footer{
   background-size: cover;
   }
 
-  footer  p.index-nav1__tituloLogo--formatoTitulo{
+  .ubicacionTitulo1 {
    color: map-get($fontColor,footer);
    font:{
-    size:30px;
+    size:22px;
     family: 'Nunito', sans-serif;
     weight:bold;
     style: normal;
   }
   text-shadow:2px 2px 2px grey;
   z-index: 1;
+
 }
 
 .index-nav1__logo--tamañoLogo{
-  width:110px ;
+  width:82px ;
   height:auto;
-  padding-right: 20px;
+  padding-right: 0px;
 }
 
-.div-redes1__a{
- margin-left:25px;
-}
+ .div-redes1__a{
+ padding:8px;
+ margin-top: 25px;
+ }
 
 
 
