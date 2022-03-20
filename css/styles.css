@@ -123,6 +123,13 @@ footer {
 .carousel-inner {
   z-index: 0; }
 
+@media only screen and (min-width: 768px) {
+  .col-12 {
+    width: 100%; } }
+
+[class*="col-12"] {
+  width: 100%; }
+
 .Eventos {
   width: auto;
   height: auto;
