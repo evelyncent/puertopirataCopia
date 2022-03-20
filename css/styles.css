@@ -35,9 +35,8 @@ footer {
 
 .ubicacionTitulo1 {
   color: black;
-  font-size: 22px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Ramaraja', serif;
   font-style: normal;
   text-shadow: 2px 2px 2px grey;
   z-index: 1; }
@@ -77,11 +76,11 @@ footer {
   width: 90px; }
 
 .navTitulo {
-  font-size: 30px;
-  font-family: 'Nunito', sans-serif;
-  font-weight: bold;
+  font-size: 32px;
+  font-family: 'Ramaraja', serif;
   font-style: normal;
-  text-shadow: 1.5px 1.5px 1.5px grey; }
+  text-shadow: 1.5px 1.5px 1.5px grey;
+  margin-top: 10px; }
 
 .navbar-nav .nav-link {
   color: black;
