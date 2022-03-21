@@ -7,9 +7,13 @@
   }
 
   .imagenCarrousel {
-    margin-top: 100px;
-    height: 420px;
+  
+     height: 420px;
 
+}
+.carousel2{
+margin-top: 100px;
+height: 420px;
 }
 
 .carousel{
@@ -38,10 +42,3 @@ text-shadow: 2px 2px 2px black;
   z-index:0 ;
 }
 
-@media only screen and (min-width: 768px) {
-  .col-12 {width: 100%;}
-}
-
-[class*="col-12"] {
-  width: 100%;
-}
