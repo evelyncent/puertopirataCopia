@@ -18,7 +18,8 @@ font-family: 'Nunito', sans-serif;
 
 .tituloFormulario{
   @extend.formatoContacto;
-  margin-bottom: 30px;
+  padding: 30px;
+
   text-align: center;
 }
 
