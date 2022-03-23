@@ -102,23 +102,26 @@ footer {
   background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
   padding: 20px; }
 
-.carousel2 {
-  margin-top: 100px; }
-
 .carousel, .titulo1Carrousel, .tituloCarrousel {
-  text-shadow: 2px 2px 2px black;
+  text-shadow: 3px 3px 3px black;
   color: white;
   font-family: 'Nunito', sans-serif;
   text-align: center; }
 
 .titulo1Carrousel {
-  font-size: 28px; }
+  font-size: 25px; }
 
 .tituloCarrousel {
-  font-size: 20px; }
+  font-size: 22px; }
 
 .carousel-inner {
   z-index: 0; }
+
+.slide {
+  margin-top: 100px; }
+
+.slide img {
+  height: 50vh; }
 
 .Eventos {
   width: auto;
