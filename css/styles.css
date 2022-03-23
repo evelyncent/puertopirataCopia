@@ -100,16 +100,10 @@ footer {
 
 .mainIndex {
   background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
-  padding: 20px;
-  height: 600px;
-  width: auto; }
-
-.imagenCarrousel {
-  height: 420px; }
+  padding: 20px; }
 
 .carousel2 {
-  margin-top: 100px;
-  height: 420px; }
+  margin-top: 100px; }
 
 .carousel, .titulo1Carrousel, .tituloCarrousel {
   text-shadow: 2px 2px 2px black;
