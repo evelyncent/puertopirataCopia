@@ -1,0 +1,63 @@
+
+.formatoBodyNosotros {
+  display: grid;
+  grid-template-areas:
+  "headerNosotros"
+  "mainNosotros"
+  "footerNosotros";
+  grid-template-columns:100%;
+  grid-template-rows:auto auto auto;
+}
+.headerNosotros{
+  grid-area: headerNosotros;
+}
+.mainNosotros{
+  grid-area: mainNosotros;
+}
+.footerNosotros{
+  grid-area: footerNosotros;
+}
+
+
+@media  (max-width: 320px){
+  .gridSection{
+    display: grid;
+    grid-template-areas:
+    "tituloNosotros1"
+    "texto"
+    "imgTimon";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+
+
+
+/*Mobile Horizontal*/
+@media  (min-width: 321px) and (max-width: 480px){
+  .gridSection{
+    display: grid;
+    grid-template-areas:
+    "tituloNosotros1"
+    "texto"
+    "imgTimon";
+    grid-template-columns: 100%;
+    grid-template-rows: auto auto auto;
+  }
+}
+
+	
+ @media  (min-width: 1025px){
+  .gridSection{
+    display: grid;
+    grid-template-areas:
+    "tituloNosotros1 tituloNosotros1"
+    "texto texto "
+    "imgTimon imgTimon";
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto auto auto;
+  }
+}
+ 
+ 	

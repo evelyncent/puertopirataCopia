@@ -1,46 +1,68 @@
 
-@mixin sizes($width,$height){
-	width: $width;
+.nosotrosUl{
+	display: flex;
+	.navNosotros{
+	list-style-type: none;
+		a{
+			text-decoration: none;
+			color: map-get($fontColor,nav);
+  font:{
+    size:17px;
+    family: 'Nunito', sans-serif;
+    weight:bold;
+    style: normal;
+  }
+  text-shadow: 1px 1px 1px grey;
+  margin-left:100px;
+  &:hover{
+				color:white;
+			}
+		}
+	}
+}
+
+ @mixin sizes($width,$height){
+ 	width: $width;
 	height: $height;
 }
 .mainNosotros{
 	background:map-get($color,main);
 
 
-	// margin-top: 100px;
-	// padding-bottom: 150px;
-	height:750px;
-	.blockquote{
-		font-family: 'Nunito', sans-serif;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 150px;
-    line-height:1;
-    text-align: center;
+ margin-top: 100px;
+ padding-bottom: 150px;
+ 	height:750px;
+	.texto{
+ 		font-family: 'Nunito', sans-serif;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     bottom: 150px;
+     line-height:1;
+     text-align: center;
    
-    font-size: 30px;
+     font-size: 30px;
 
-	}
-}
+ 	}
+ }
 
-.tituloNosotros{
+ .tituloNosotros{
   
-  display: flex;
+ display: flex;
   text-align: center;
   align-items: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 40px;
+   font-family: 'Nunito', sans-serif;
+   font-size: 40px;
   position: relative;
- margin-top:200px;
- bottom: 50px;
- text-shadow:1px 1px 1px black;
+  margin-top:200px;
+  bottom: 50px;
+  text-shadow:1px 1px 1px black;
 
 }
 
-.timon {
-	@include sizes(180px,180px);
-	position:relative;
-	bottom:150px;
+ .timon {
+ 	@include sizes(180px,180px);
+ 	position:relative;
+ 	bottom:150px;
 			
 		}
