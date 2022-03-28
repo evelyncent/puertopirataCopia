@@ -29,6 +29,15 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
   }
+  .tituloNosotros1{
+  grid-area:tituloNosotros1;
+}
+.texto{
+  grid-area:texto;
+}
+.imgTimon{
+  grid-area:imgTimon;
+}
 }
 
 
@@ -45,6 +54,15 @@
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto;
   }
+  .tituloNosotros1{
+  grid-area:tituloNosotros1;
+}
+.texto{
+  grid-area:texto;
+}
+.imgTimon{
+  grid-area:imgTimon;
+}
 }
 
 	
@@ -58,6 +76,15 @@
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto;
   }
+  .tituloNosotros1{
+  grid-area:tituloNosotros1;
+}
+.texto{
+  grid-area:texto;
+}
+.imgTimon{
+  grid-area:imgTimon;
+}
 }
  
  	

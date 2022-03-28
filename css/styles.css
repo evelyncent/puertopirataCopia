@@ -1,51 +1,26 @@
 @charset "UTF-8";
-.nosotrosUl {
-  display: flex; }
-  .nosotrosUl .navNosotros {
-    list-style-type: none; }
-    .nosotrosUl .navNosotros a {
-      text-decoration: none;
-      color: black;
-      font-size: 17px;
-      font-family: 'Nunito', sans-serif;
-      font-weight: bold;
-      font-style: normal;
-      text-shadow: 1px 1px 1px grey;
-      margin-left: 100px; }
-      .nosotrosUl .navNosotros a:hover {
-        color: white; }
-
-.mainNosotros {
-  background: linear-gradient(45deg, white, #F9E79F, #FCFAE2, white);
-  margin-top: 100px;
-  padding-bottom: 150px;
-  height: 750px; }
-  .mainNosotros .texto {
-    font-family: 'Nunito', sans-serif;
-    display: flex;
-    justify-content: center;
-    position: relative;
-    bottom: 150px;
-    line-height: 1;
-    text-align: center;
-    font-size: 30px; }
-
-.tituloNosotros {
-  display: flex;
-  text-align: center;
-  align-items: center;
-  font-family: 'Nunito', sans-serif;
-  font-size: 40px;
-  position: relative;
-  margin-top: 200px;
-  bottom: 50px;
-  text-shadow: 1px 1px 1px black; }
-
-.timon {
-  width: 180px;
-  height: 180px;
-  position: relative;
-  bottom: 150px; }
+.navNosotros {
+  color: black; }
+  .navNosotros .logo {
+    display: flex; }
+    .navNosotros .logo .imgLogo1 {
+      justify-content: flex-end; }
+      .navNosotros .logo .imgLogo1 .imagenNosotros {
+        width: 50px; }
+        .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros {
+          font-size: 32px;
+          font-family: 'Ramaraja', serif;
+          font-style: normal;
+          text-shadow: 1.5px 1.5px 1.5px grey;
+          margin-top: 10px; }
+          .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros {
+            display: flex; }
+            .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink {
+              list-style-type: none; }
+              .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink a {
+                text-decoration: none; }
+                .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink a:hover {
+                  color: red; }
 
 footer {
   background-image: linear-gradient(#13F8F9, white);
@@ -141,7 +116,10 @@ footer {
   margin-top: 100px; }
 
 .slide img {
-  height: 50vh; }
+  height: 60vh; }
+
+.timonDibujo {
+  padding: 35px; }
 
 .Eventos {
   width: auto;
@@ -349,7 +327,13 @@ hr {
     display: grid;
     grid-template-areas: "tituloNosotros1" "texto" "imgTimon";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto; } }
+    grid-template-rows: auto auto auto; }
+  .tituloNosotros1 {
+    grid-area: tituloNosotros1; }
+  .texto {
+    grid-area: texto; }
+  .imgTimon {
+    grid-area: imgTimon; } }
 
 /*Mobile Horizontal*/
 @media (min-width: 321px) and (max-width: 480px) {
@@ -357,11 +341,23 @@ hr {
     display: grid;
     grid-template-areas: "tituloNosotros1" "texto" "imgTimon";
     grid-template-columns: 100%;
-    grid-template-rows: auto auto auto; } }
+    grid-template-rows: auto auto auto; }
+  .tituloNosotros1 {
+    grid-area: tituloNosotros1; }
+  .texto {
+    grid-area: texto; }
+  .imgTimon {
+    grid-area: imgTimon; } }
 
 @media (min-width: 1025px) {
   .gridSection {
     display: grid;
     grid-template-areas: "tituloNosotros1 tituloNosotros1" "texto texto " "imgTimon imgTimon";
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto auto auto; } }
+    grid-template-rows: auto auto auto; }
+  .tituloNosotros1 {
+    grid-area: tituloNosotros1; }
+  .texto {
+    grid-area: texto; }
+  .imgTimon {
+    grid-area: imgTimon; } }

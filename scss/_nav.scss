@@ -17,6 +17,7 @@
 }
 .navbar-nav .nav-link {
 
+
   color: map-get($fontColor,nav);
   font:{
     size:17px;
@@ -28,7 +29,9 @@
   }
   text-shadow: 1px 1px 1px grey;
   margin-left:100px;
+
 }
+
 
 .nav-color{
 background-image:map-get($color,nav);
