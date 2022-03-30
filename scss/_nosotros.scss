@@ -1,3 +1,34 @@
+
+@mixin sizes($width,$height){
+	width: $width;
+	height: $height;
+}
+.tituloNosotros{
+	display: flex;
+	align-items:center;
+	justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: 'Nunito', sans-serif;
+  font-size: 45px;
+  position: relative;
+ margin-top:150px;
+ bottom: 50px;
+ text-shadow:1px 1px 1px black;
+}
+.texto{
+	
+	justify-content: center;
+	position: relative;
+	bottom:100px;
+	line-height:1.3;
+	text-align: center;
+}
+
+.texto1{
+	font-family: 'Nunito', sans-serif;
+	font-size:30px;
+}
 .navNosotros{
 	width: 100%;;
 	position:fixed;
@@ -5,6 +36,7 @@
 	background-image:map-get($color,nav);
 	background-size:cover;
 	top: 0px;
+	z-index: 1;
 }	
 .navTituloNosotros{
 	font:{
@@ -44,3 +76,85 @@ position: relative;
 	position:relative;
 	top:10px;
 }
+
+.mainNosotros{
+	background:map-get($color,main);
+	margin-top: 100px;
+	padding-bottom: 150px;
+	height:750px;
+	}
+
+	.imgTimon{
+		display: flex;
+	align-items:center;
+	justify-content: center;
+	}
+
+	.timon {
+	@include sizes(200px,200px);
+	margin-top:0px;
+	
+			
+		}
+
+
+		.footerNosotros{
+  background-image:map-get($color,footer);
+  background-size: cover;
+  }
+
+  .tituloFooter {
+   color: map-get($fontColor,footer);
+   font:{
+    size:25px;
+    family: 'Ramaraja', serif;
+  
+    style: normal;
+  }
+  text-shadow:2px 2px 2px grey;
+  z-index: 1;
+  margin-bottom: 10px;
+
+}
+.logoNosotros{
+	display: flex;
+	position:relative;
+	justify-content: center;
+	text-align: center;
+	align-items:center;
+}
+
+.logoFooter{
+  width:82px ;
+  height:auto;
+  padding-right: 0px;
+}
+
+ .div-redes1__Nosotros{
+ padding:8px;
+ margin-top: 0px;
+ }
+
+
+
+.redes{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  
+  
+  justify-content: center;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+
+
+
+.div-redes1__a--formato{
+  &:hover{
+        transform: scale(1.2);
+        color: #1C9ABA;
+      }
+ }
