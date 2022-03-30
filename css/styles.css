@@ -452,7 +452,51 @@ hr {
   .texto {
     grid-area: texto; }
   .imgTimon {
-    grid-area: imgTimon; } }
+    grid-area: imgTimon;
+    margin-bottom: 12px; }
+  .mainNosotros {
+    width: 100%;
+    height: auto; }
+  .navNosotros {
+    display: block;
+    right: -1px;
+    width: 100%;
+    background-image: linear-gradient(#13F8F9, white);
+    background-size: cover; }
+  .timon {
+    width: 180px;
+    height: 180px;
+    margin-bottom: 80px; }
+  .navTituloNosotros {
+    font-size: 20px;
+    font-family: 'Ramaraja', serif;
+    font-style: normal;
+    text-shadow: 1.5px 1.5px 1.5px grey;
+    margin-top: 10px; }
+  .nav-linkNosotros {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    text-shadow: 1px 1px 1px grey;
+    margin-left: 10px; }
+  .logo {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center; }
+  .imagenNosotros {
+    position: relative;
+    right: 10px;
+    width: 90px; }
+  .ulNosotros {
+    display: flex;
+    list-style: none;
+    position: relative;
+    top: 0px;
+    right: 30px; } }
 
 @media (min-width: 1025px) {
   .gridSection {
