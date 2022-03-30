@@ -36,6 +36,7 @@
 	background-image:map-get($color,nav);
 	background-size:cover;
 	top: 0px;
+
 	z-index: 1;
 }	
 .navTituloNosotros{
@@ -75,6 +76,7 @@ position: relative;
 	list-style: none;
 	position:relative;
 	top:10px;
+	margin-left:100px;
 }
 
 .mainNosotros{
@@ -152,7 +154,7 @@ position: relative;
 
 
 
-.div-redes1__a--formato{
+.div-redes1__a--formatoNosotros{
   &:hover{
         transform: scale(1.2);
         color: #1C9ABA;
