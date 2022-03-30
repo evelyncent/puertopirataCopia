@@ -30,6 +30,7 @@
   background-image: linear-gradient(#13F8F9, white);
   background-size: cover;
   top: 0px;
+  right: -1px;
   z-index: 1; }
 
 .navTituloNosotros {
@@ -37,7 +38,7 @@
   font-family: 'Ramaraja', serif;
   font-style: normal;
   text-shadow: 1.5px 1.5px 1.5px grey;
-  margin-top: 20px; }
+  margin-top: 25px; }
 
 .nav-linkNosotros {
   text-decoration: none;
@@ -54,7 +55,8 @@
 
 .imagenNosotros {
   position: relative;
-  right: 10px;
+  padding: 10px;
+  right: 5px;
   width: 90px; }
 
 .ulNosotros {

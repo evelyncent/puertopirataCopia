@@ -36,6 +36,7 @@
 	background-image:map-get($color,nav);
 	background-size:cover;
 	top: 0px;
+	right:-1px;;
 
 	z-index: 1;
 }	
@@ -46,7 +47,7 @@
     style: normal;
     }
   text-shadow: 1.5px 1.5px 1.5px grey;
-  margin-top:20px;
+  margin-top:25px;
 }
 .nav-linkNosotros{
 	text-decoration:none;
@@ -68,7 +69,8 @@
 }
 .imagenNosotros{
 position: relative;
- right:10px;
+padding:10px;
+ right:5px;
  width: 90px;
 }
 .ulNosotros{
