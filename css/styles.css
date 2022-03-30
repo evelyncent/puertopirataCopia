@@ -598,7 +598,7 @@ hr {
     top: 0px;
     right: 80px; } }
 
-@media (min-width: 1025px) {
+@media (max-width: 1024px) {
   .gridSection {
     display: grid;
     grid-template-areas: "tituloNosotros1 tituloNosotros1" "texto texto " "imgTimon imgTimon";
