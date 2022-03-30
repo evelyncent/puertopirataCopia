@@ -129,6 +129,12 @@ footer {
   position: relative;
   padding: 15px; }
 
+.card-body {
+  box-shadow: 5px 5px 5px black; }
+
+.card-img-top {
+  box-shadow: 4px 4px 4px #FCFAE2; }
+
 .cards, .card1 .card2 .card3 .card4 .card5 {
   padding: 30px; }
 

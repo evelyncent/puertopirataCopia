@@ -11,12 +11,19 @@
   position: relative;
   padding:15px;
 }
-
+.card-body {
+  box-shadow:5px 5px 5px black;
+}
+.card-img-top{
+  box-shadow:4px 4px 4px #FCFAE2 ;
+}
 .cards{
- padding:30px
+ padding:30px;
+
 }
 .card1 .card2 .card3 .card4 .card5{
  @extend.cards;
+
 }
 
 
@@ -27,10 +34,12 @@
 }
 .tarjetas{
   margin-top: 180px;
+
 }
 .tarjetas2{
   background:none;
   border:none;
+
 }
 
 
