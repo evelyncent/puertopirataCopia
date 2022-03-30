@@ -1,26 +1,42 @@
 @charset "UTF-8";
 .navNosotros {
-  color: black; }
-  .navNosotros .logo {
-    display: flex; }
-    .navNosotros .logo .imgLogo1 {
-      justify-content: flex-end; }
-      .navNosotros .logo .imgLogo1 .imagenNosotros {
-        width: 50px; }
-        .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros {
-          font-size: 32px;
-          font-family: 'Ramaraja', serif;
-          font-style: normal;
-          text-shadow: 1.5px 1.5px 1.5px grey;
-          margin-top: 10px; }
-          .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros {
-            display: flex; }
-            .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink {
-              list-style-type: none; }
-              .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink a {
-                text-decoration: none; }
-                .navNosotros .logo .imgLogo1 .imagenNosotros .navTituloNosotros .ulNosotros .navNosotrosLink a:hover {
-                  color: red; }
+  width: 100%;
+  position: fixed;
+  display: flex;
+  background-image: linear-gradient(#13F8F9, white);
+  background-size: cover;
+  top: 0px; }
+
+.navTituloNosotros {
+  font-size: 32px;
+  font-family: 'Ramaraja', serif;
+  font-style: normal;
+  text-shadow: 1.5px 1.5px 1.5px grey;
+  margin-top: 10px; }
+
+.nav-linkNosotros {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  font-style: normal;
+  text-shadow: 1px 1px 1px grey;
+  margin-left: 100px; }
+
+.logo {
+  display: flex; }
+
+.imagenNosotros {
+  position: relative;
+  right: 10px;
+  width: 90px; }
+
+.ulNosotros {
+  display: flex;
+  list-style: none;
+  position: relative;
+  top: 10px; }
 
 footer {
   background-image: linear-gradient(#13F8F9, white);
