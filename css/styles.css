@@ -12,10 +12,10 @@
   bottom: 50px;
   text-shadow: 1px 1px 1px black; }
 
-.texto {
+.textoNosotros {
   justify-content: center;
   position: relative;
-  bottom: 100px;
+  bottom: 10px;
   line-height: 1.3;
   text-align: center; }
 
@@ -37,7 +37,7 @@
   font-family: 'Ramaraja', serif;
   font-style: normal;
   text-shadow: 1.5px 1.5px 1.5px grey;
-  margin-top: 10px; }
+  margin-top: 20px; }
 
 .nav-linkNosotros {
   text-decoration: none;
@@ -49,7 +49,7 @@
   text-shadow: 1px 1px 1px grey;
   margin-left: 100px; }
 
-.logo {
+.logo1 {
   display: flex; }
 
 .imagenNosotros {
@@ -61,7 +61,7 @@
   display: flex;
   list-style: none;
   position: relative;
-  top: 10px;
+  top: 20px;
   margin-left: 100px; }
 
 .mainNosotros {
@@ -78,7 +78,7 @@
 .timon {
   width: 200px;
   height: 200px;
-  margin-top: 0px; }
+  margin-top: 45px; }
 
 .footerNosotros {
   background-image: linear-gradient(#13F8F9, white);
@@ -107,16 +107,7 @@
 
 .div-redes1__Nosotros {
   padding: 8px;
-  margin-top: 0px; }
-
-.redes {
-  display: flex;
-  flex-direction: row;
-  position: relative;
-  justify-content: center;
-  margin-bottom: 15px;
-  padding-top: 10px;
-  margin-left: 10px; }
+  margin-top: 10px; }
 
 .div-redes1__a--formatoNosotros:hover {
   transform: scale(1.2);
@@ -431,13 +422,13 @@ hr {
 @media (max-width: 320px) {
   .gridSection {
     display: grid;
-    grid-template-areas: "tituloNosotros1" "texto" "imgTimon";
+    grid-template-areas: "tituloNosotros1" "textoNosotros" "imgTimon";
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto; }
   .tituloNosotros1 {
     grid-area: tituloNosotros1; }
-  .texto {
-    grid-area: texto; }
+  .textoNosotros {
+    grid-area: textoNosotros; }
   .tituloFooter {
     font-size: 18px; }
   .imgTimon {
@@ -474,7 +465,7 @@ hr {
     margin-left: 10px; }
   .tituloNosotros {
     font-size: 25px; }
-  .logo {
+  .logo1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -494,13 +485,13 @@ hr {
 @media (min-width: 321px) and (max-width: 480px) {
   .gridSection {
     display: grid;
-    grid-template-areas: "tituloNosotros1" "texto" "imgTimon";
+    grid-template-areas: "tituloNosotros1" "textoNosotros" "imgTimon";
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto; }
   .tituloNosotros1 {
     grid-area: tituloNosotros1; }
-  .texto {
-    grid-area: texto; }
+  .textoNosotros {
+    grid-area: textoNosotros; }
   .imgTimon {
     grid-area: imgTimon;
     margin-bottom: 12px; }
@@ -532,7 +523,7 @@ hr {
     font-style: normal;
     text-shadow: 1px 1px 1px grey;
     margin-left: 10px; }
-  .logo {
+  .logo1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -551,13 +542,13 @@ hr {
 @media (min-width: 481px) and (max-width: 768px) {
   .gridSection {
     display: grid;
-    grid-template-areas: "tituloNosotros1" "texto" "imgTimon";
+    grid-template-areas: "tituloNosotros1" "textoNosotros" "imgTimon";
     grid-template-columns: 100%;
     grid-template-rows: auto auto auto; }
   .tituloNosotros1 {
     grid-area: tituloNosotros1; }
-  .texto {
-    grid-area: texto; }
+  .textoNosotros {
+    grid-area: textoNosotros; }
   .imgTimon {
     grid-area: imgTimon;
     margin-bottom: 12px; }
@@ -582,7 +573,7 @@ hr {
     font-style: normal;
     text-shadow: 1px 1px 1px grey;
     margin-left: 20px; }
-  .logo {
+  .logo1 {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -601,12 +592,12 @@ hr {
 @media (max-width: 1024px) {
   .gridSection {
     display: grid;
-    grid-template-areas: "tituloNosotros1 tituloNosotros1" "texto texto " "imgTimon imgTimon";
+    grid-template-areas: "tituloNosotros1 tituloNosotros1" "textoNosotros textoNosotros " "imgTimon imgTimon";
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto auto auto; }
   .tituloNosotros1 {
     grid-area: tituloNosotros1; }
-  .texto {
-    grid-area: texto; }
+  .textoNosotros {
+    grid-area: textoNosotros; }
   .imgTimon {
     grid-area: imgTimon; } }
