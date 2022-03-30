@@ -171,15 +171,17 @@ background-size:cover;
 
   color: map-get($fontColor,nav);
   font:{
-    size:10px;
+    size:9px;
     family: 'Nunito', sans-serif;
     weight:bold;
     style: normal;
     }
     text-shadow: 1px 1px 1px grey;
-  margin-left:10px;
+  margin-left:20px;
+
 
   }
+
 
 .logo1{
   display: flex;
@@ -198,6 +200,8 @@ position: relative;
   position:relative;
   top:0px;
   right:132px;
+  
+  margin-left:82px;
 
 }
 }
@@ -270,14 +274,12 @@ position: relative;
   list-style: none;
   position:relative;
   top:0px;
-  right:80px;
+  right:20px;
 
 }
 }
 
-
-	
- @media  (max-width: 1024px){
+@media  (min-width: 769px) and (max-width: 1024px){
   .gridSection{
     display: grid;
     grid-template-areas:
@@ -296,5 +298,40 @@ position: relative;
 .imgTimon{
   grid-area:imgTimon;
 }
+	
+.navTituloNosotros{
+  font:{
+    size:30px;
+    family:'Ramaraja', serif;
+    style: normal;
+    }
+  text-shadow: 1.5px 1.5px 1.5px grey;
+  margin-top:35px;
+}
+.nav-linkNosotros{
+  text-decoration:none;
+
+  color: map-get($fontColor,nav);
+  font:{
+    size:18px;
+    family: 'Nunito', sans-serif;
+    weight:bold;
+    style: normal;
+    }
+    text-shadow: 1px 1px 1px grey;
+  margin-left:30px;
+
+  }
+
+
+.ulNosotros{
+  display: flex;
+  list-style: none;
+  position:relative;
+  top:30px;
+  left:20px;
 
 }
+}
+
+ 
