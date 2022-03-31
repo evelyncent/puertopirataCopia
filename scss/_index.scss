@@ -6,25 +6,18 @@
 
   }
 
- //   .imagenCarrousel {
-  
- //    height: 420px;
+ 
 
- // }
- .carousel2{
-  // margin-top: 100px;
-//   height: 420px;
- }
 
 .carousel{
-text-shadow: 3px 3px 3px black;
+text-shadow: 3.5px 3.5px 3.5px black;
 color: white;
 font-family: 'Nunito', sans-serif;
 text-align: center;
 }
 .titulo1Carrousel  {
 	@extend.carousel;
-    font-size: 25px;
+    font-size: 28px;
 }
 
 

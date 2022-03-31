@@ -186,13 +186,13 @@ footer {
   width: auto; }
 
 .carousel, .titulo1Carrousel, .tituloCarrousel {
-  text-shadow: 3px 3px 3px black;
+  text-shadow: 3.5px 3.5px 3.5px black;
   color: white;
   font-family: 'Nunito', sans-serif;
   text-align: center; }
 
 .titulo1Carrousel {
-  font-size: 25px; }
+  font-size: 28px; }
 
 .tituloCarrousel {
   font-size: 22px; }
